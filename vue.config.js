@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
+
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: '/Employee-Management-System/'
+  publicPath: './'   // ⭐ THIS FIXES YOUR ERROR
 })
